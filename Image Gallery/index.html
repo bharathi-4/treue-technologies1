@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css"
+	<title>Image Gallery</title>
+</head>
+<body>
+<!-- Heading Name -->
+<div class="heading">
+	<h1>Image Gallery</h1>
+</div>
+	<!-- Image Gallery section all image in one div -->
+	<div class="gallery">
+<img src="https://www.omegapark.com.au/web_images/Spike..%20(Small).JPG"
+alt="Image 1" class="gallery-img" onclick="showImage(src)" data-lightbox="roadtrip">
+<img src="https://dgicdplf3pvka.cloudfront.net/893583/maltese-puppy-picture-2f93aeb0-89fe-4a84-b232-47484956a3f1.jpg"
+alt="Image 2" class="gallery-img" onclick="showImage(src)">
+<img src="https://www.allthingsdogs.com/wp-content/uploads/2020/04/Maltese-Dog-Outside.jpg"
+alt="Image 3" class="gallery-img" onclick="showImage(src)">
+<img src="https://th.bing.com/th/id/OIP.eBpZwsm1O5Kom5LZG7itEQHaHa?pid=ImgDet&rs=1" alt="Image 4" class="gallery-img" onclick="showImage(src)">
+<img src="https://th.bing.com/th/id/OIP.23SIedGFfC2Nm9_YE6MrKwAAAA?pid=ImgDet&w=199&h=199&c=7&dpr=1.5 alt="Image 5" class="gallery-img" onclick="showImage(src)">
+<img src="https://th.bing.com/th/id/OIP.L96COU77Iw3XtiFgzJyllAHaLG?pid=ImgDet&w=199&h=298&c=7&dpr=1.5"
+alt="Image 6" class="gallery-img" onclick="showImage(src)">
+<img src="https://i.pinimg.com/736x/c8/9e/8d/c89e8dcaa659143de9c2405c97f03a77--cherry-blossoms-beautiful-flowers.jpg"
+alt="Image 7" class="gallery-img" onclick="showImage(src)">
+<img src="https://i.pinimg.com/originals/7a/06/56/7a0656fb4fc689e44e737a1e0318648e.jpg"
+alt="Image 8" class="gallery-img" onclick="showImage(src)">
+<img src="https://cache.desktopnexus.com/thumbseg/2380/2380277-bigthumbnail.jpg"
+alt="Image 9" class="gallery-img" onclick="showImage(src)">
+<img src="https://i.pinimg.com/736x/e8/f4/48/e8f4483af462f600d9a7e5ce97698b60.jpg"
+alt="Image 10" class="gallery-img">		
+</div>
+<div class="image-popup-container" id="imagePopup">
+	<span class="close-button" onclick="closeImage()">×</span>
+	<img src="" alt="Popup Image" id="popupImage">
+  </div>
+
+	<script src="script.js"></script>
+</body>
+</html>
