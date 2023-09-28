@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+}
+.converter-body {
+    width: 400px;
+    height: 200px; 
+    background: yellow;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    box-shadow: 0px 0px 2px 1px #cacaca;
+    margin: 0px;
+}
+.converter-title {
+    text-align: center;
+    margin: 13px 0px;
+    color: aqua;
+    
+}
+input {
+    height: 45px;
+    text-align: center;
+    color: blue;
+}
+#input {
+    margin-left: 25px;
+    
+}
+#inputType,#resultType {
+    width: 169.66px;
+    margin-left: 31px;
+    color: red;
+    height: 45;
+}
+#resultType{
+    margin-left: 12.5px;
+}
